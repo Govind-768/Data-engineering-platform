@@ -2,13 +2,13 @@
 
 ## Executive Dashboard
 
-![Dashboard KPIs](assets/dashboard.png)
-
-![Dashboard Analytics](assets/dashboard_analytics.png)
-
 A production-inspired end-to-end **Data Engineering + Analytics Engineering** project simulating a modern quick-commerce fashion startup.
 
 This platform demonstrates how raw operational data flows through ingestion, transformation, warehouse modeling, monitoring, orchestration, and executive analytics reporting.
+
+![Dashboard KPIs](assets/dashboard.png)
+
+![Dashboard Analytics](assets/analytics.png)
 
 ---
 
@@ -85,6 +85,17 @@ Built using:
 - Automated DAG scheduling
 - Pipeline orchestration
 
+
+![Airflow DAG Overview](assets/airflow_home.png)
+
+### Airflow Graph View
+
+![Airflow Graph View](assets/airflow_graph.png)
+
+### Airflow DAG Grid View
+
+![Airflow DAG Grid View](assets/airflow_grid.png)
+
 ---
 
 #  Architecture
@@ -153,6 +164,8 @@ Built using:
 
 #  Project Structure
 
+![Project Structure](assets/project_structure.png)
+![Project Structure](assets/project_structure2.png)
 
 ```text
 data-engineering-platform/
@@ -393,4 +406,4 @@ Planned upgrades:
 Aspiring Data Engineer focused on building production-inspired data platforms and analytics systems.
 
 ```
-```
+
