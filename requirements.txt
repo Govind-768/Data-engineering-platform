@@ -1,0 +1,10 @@
+pandas
+numpy
+sqlalchemy
+faker
+python-dotenv
+streamlit
+plotly
+pyyaml
+psycopg2-binary
+pytest

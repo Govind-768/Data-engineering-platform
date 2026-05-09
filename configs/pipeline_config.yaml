@@ -1,0 +1,18 @@
+project:
+  name: Data Engineering Platform
+  environment: local
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  warehouse: data/warehouse/data_warehouse.db
+  logs: logs
+
+data_quality:
+  freshness_hours: 48
+  fail_on_duplicates: true
+
+business:
+  delivery_sla_minutes: 60
+  target_refund_rate_pct: 4.0
+  low_stock_threshold: 20
